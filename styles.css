@@ -19,7 +19,7 @@ h1 {
 }
 
 body {
-    width: 100%;
+    width: 70%;
     height: 100vh;
     margin: 0;
     background-color: #1b1b32;
@@ -89,3 +89,5 @@ input[type="file"] {
     display: flex;
     align-items: center;
 }
+body{margin-left: 185px;
+margin-right: auto;}
