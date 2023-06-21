@@ -9,9 +9,36 @@
 </head>
 
 <body>
-    <h1>Hallo
-    </h1>
-    <p>test</p>
+    <h1>freeCodeCam Survey Form</h1>
+    <p class="cool">Thank you for taking the time to help us improve the platform</p>
+    <fieldset>
+        <label for="name">Name: <input name="name" required type="text" id="name"></input></label>
+        <label for="email">Email:<input id="email" name="email" type="email" required></input></label>
+        <label for="age">Age:<input id="age" type="number" name="age" min="10" max="99"></label>
+        <label for="describe">Which option best describes your current role?
+            <select id="describe" name="describe">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full time Job</option>
+                <option value="3">Full time learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <label for="definitely"><input id="definitely" type="radio" name="definitely" class="inline"></input>
+            Definitely</label>
+        <label for="maybe"><input id="maybe" type="radio" name="maybe" class="inline"></input> Maybe</label>
+        <label for="not-sure"><input id="not-sure" type="radio" name="not-sure" class="inline"></input> Not sure</label>
+    </fieldset>
+    <fieldset>
+        <p>What would you like to see improved?</p>
+        <label for="improve">
+
+        </label>
+    </fieldset>
 </body>
 
 </html>
